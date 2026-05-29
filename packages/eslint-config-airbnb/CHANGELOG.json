@@ -1,0 +1,241 @@
+{
+  "name": "@hz-9/eslint-config-airbnb",
+  "entries": [
+    {
+      "version": "0.4.0",
+      "tag": "@hz-9/eslint-config-airbnb_v0.4.0",
+      "date": "Tue, 01 Apr 2025 16:45:46 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "feat: add profiles for `no-import`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "1de0c78901e60c4c6ef9f94d3e58ddca1ce0d867"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.11",
+      "tag": "@hz-9/eslint-config-airbnb_v0.3.11",
+      "date": "Tue, 01 Apr 2025 16:19:21 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "docs: change `README.md`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "eb55bb73df0c5c4db68c058f9819e30bf7888930"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.10",
+      "tag": "@hz-9/eslint-config-airbnb_v0.3.10",
+      "date": "Mon, 24 Jun 2024 06:00:52 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "docs: updated the badge in `README.md`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "8cfd7bea584c5ee176d5f5d5e3739cf63a2a96c0"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.9",
+      "tag": "@hz-9/eslint-config-airbnb_v0.3.9",
+      "date": "Sun, 23 Jun 2024 16:03:28 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "docs: change `README.md`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "5e57f78c0d04f342b38b225cbc373d9bbf2be90e"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.8",
+      "tag": "@hz-9/eslint-config-airbnb_v0.3.8",
+      "date": "Sat, 22 Jun 2024 02:33:20 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "docs: add docs files",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "21ab3a9d12f654727dcffbd2eadd25f2020728d4"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.7",
+      "tag": "@hz-9/eslint-config-airbnb_v0.3.7",
+      "date": "Mon, 17 Jun 2024 11:58:24 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "docs: add `homepage` paramater in `package.json`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "1d69d688298d5566e678c5473329e29e0158e27b"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.6",
+      "tag": "@hz-9/eslint-config-airbnb_v0.3.6",
+      "date": "Wed, 12 Jun 2024 09:02:40 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "docs: add `keywords` paramater in `package.json`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "2b2b8780a6fc5d105858e8048599dcd2d2ed82d1"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.5",
+      "tag": "@hz-9/eslint-config-airbnb_v0.3.5",
+      "date": "Wed, 12 Jun 2024 08:39:00 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "docs: change `repository` paramater in `package.json`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "b3e1290801cb2c673c6ac0ca015334d27b26205b"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.4",
+      "tag": "@hz-9/eslint-config-airbnb_v0.3.4",
+      "date": "Tue, 11 Jun 2024 11:56:35 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "docs: upgrade `README.md`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "69b5050b5a8203a593ae754c70e782d6f262a97d"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.3",
+      "tag": "@hz-9/eslint-config-airbnb_v0.3.3",
+      "date": "Tue, 11 Jun 2024 04:01:35 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "ci: upgrade `package.json`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "65512f4796c3a43a31a7b7026fd52aba425fdc04"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.2",
+      "tag": "@hz-9/eslint-config-airbnb_v0.3.2",
+      "date": "Tue, 11 Jun 2024 02:13:05 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "docs: change `README.md`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "7a2dcf75cd427406d5de9fc3020072752dfa6cdb"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.1",
+      "tag": "@hz-9/eslint-config-airbnb_v0.3.1",
+      "date": "Tue, 11 Jun 2024 02:09:32 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "feat: add some properties to `package.json` and write `README.md`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "4bbc2d0dac8b9cf450f5685afda63606dcc3234b"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.0",
+      "tag": "@hz-9/eslint-config-airbnb_v0.3.0",
+      "date": "Tue, 11 Jun 2024 01:33:52 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "feat: change scope `@hz9` -> `@hz-9`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "811f9ad6488ceb06783a56f75cd1d66e42c17494"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.2.0",
+      "tag": "@hz-9/eslint-config-airbnb_v0.2.0",
+      "date": "Mon, 13 May 2024 13:59:57 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "change rules",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "f2a07f5bc429913547f28c5c8986708ed75d4361"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.1",
+      "tag": "@hz-9/eslint-config-airbnb_v0.1.1",
+      "date": "Thu, 09 May 2024 14:25:59 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "docs: change `package.json`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "0692fd8bdddecb228080711c1244a17ff05593b7"
+          },
+          {
+            "comment": "docs: change `README.md`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "7653c52abc239b6d96f187393eff87bdf1064600"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "docs: change description in filesheader",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "f8706c76b492817fbb31e81c9914070057016b99"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.0",
+      "tag": "@hz-9/eslint-config-airbnb_v0.1.0",
+      "date": "Thu, 09 May 2024 10:27:29 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "feat: first commit",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "cda3ccb678523a95f9b44570024b74847ac14006"
+          }
+        ]
+      }
+    }
+  ]
+}

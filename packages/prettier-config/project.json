@@ -1,0 +1,23 @@
+{
+  "name": "@hz-9/prettier-config",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "{projectRoot}",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "eslint --fix ./profile/**/*.js",
+        "cwd": "{projectRoot}"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "echo 'No build needed - pure config package'",
+        "cwd": "{projectRoot}"
+      }
+    }
+  },
+  "tags": ["scope:package", "type:config"]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "@hz-9/prettier-config",
+  "entries": [
+    {
+      "version": "0.1.2",
+      "tag": "@hz-9/prettier-config_v0.1.2",
+      "date": "Tue, 01 Apr 2025 16:45:46 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix: repairing directory structure",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "1de0c78901e60c4c6ef9f94d3e58ddca1ce0d867"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@hz-9/eslint-config-airbnb\" to `0.4.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.1",
+      "tag": "@hz-9/prettier-config_v0.1.1",
+      "date": "Tue, 01 Apr 2025 16:19:21 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix: repairing directory structure",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "eb55bb73df0c5c4db68c058f9819e30bf7888930"
+          },
+          {
+            "comment": "docs: change `README.md`",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "eb55bb73df0c5c4db68c058f9819e30bf7888930"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.0",
+      "tag": "@hz-9/prettier-config_v0.1.0",
+      "date": "Tue, 01 Apr 2025 10:55:04 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "feat(prettier-config): first commit",
+            "author": "Chen Zhen <heavenzhen999@163.com>",
+            "commit": "43431b1024ad2a6e12f42f5d96d7897bdc950a74"
+          }
+        ]
+      }
+    }
+  ]
+}

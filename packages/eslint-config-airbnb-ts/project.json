@@ -1,0 +1,24 @@
+{
+  "name": "@hz-9/eslint-config-airbnb-ts",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "{projectRoot}",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "eslint --fix ./profile/**/*.js",
+        "cwd": "{projectRoot}"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "echo 'No build needed - pure config package'",
+        "cwd": "{projectRoot}"
+      }
+    }
+  },
+  "tags": ["scope:package", "type:config"],
+  "implicitDependencies": ["@hz-9/eslint-config-airbnb"]
+}

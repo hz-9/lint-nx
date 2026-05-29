@@ -1,0 +1,61 @@
+{
+  "name": "@hz-9/eslint-config-airbnb",
+  "version": "0.4.0",
+  "description": "A eslint config for 'hz-9' (JavaScript)",
+  "keywords": [
+    "eslint",
+    "airbnb"
+  ],
+  "homepage": "https://hz-9.github.io/lint/guide/eslint-config-airbnb",
+  "bugs": {
+    "url": "https://github.com/hz-9/lint/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hz-9/lint.git",
+    "directory": "eslint-config/eslint-config-airbnb"
+  },
+  "license": "MIT",
+  "author": "Chen Zhen <heavenzhen999@163.com>",
+  "exports": {
+    ".": "./profile/index.js",
+    "./index.js": "./profile/index.js",
+    "./index": "./profile/index.js",
+    "./browser": "./profile/browser.js",
+    "./node": "./profile/node.js",
+    "./no-import": "./profile/no-import.js",
+    "./browser-no-import": "./profile/browser-no-import.js",
+    "./node-no-import": "./profile/node-no-import.js",
+    "./package.json": "./package.json",
+    "./*": "./*.js"
+  },
+  "main": "./profile/index.js",
+  "files": [
+    "profile",
+    "rules",
+    "index.js",
+    "LICENSE",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "scripts": {
+    "build": " ",
+    "lint": "eslint --fix ./{profile,rules}/**/*.js"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=18.15.0 <19.0.0 || >=20.9.0 <21.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
