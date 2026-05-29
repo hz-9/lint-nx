@@ -7,12 +7,7 @@
       "name": "Debug Jest tests for igniter",
       "program": "${workspaceFolder}/packages/igniter/node_modules/@rushstack/heft/lib/start.js",
       "cwd": "${workspaceFolder}/packages/igniter",
-      "args": [
-        "--debug",
-        "test",
-        "--clean",
-        "--watch"
-      ],
+      "args": ["--debug", "test", "--clean", "--watch"],
       "console": "integratedTerminal",
       "sourceMaps": true
     },
@@ -22,12 +17,7 @@
       "name": "Debug Jest tests for meta prepare",
       "program": "${workspaceFolder}/packages/igniter/node_modules/@rushstack/heft/lib/start.js",
       "cwd": "${workspaceFolder}/packages/meta-prepare",
-      "args": [
-        "--debug",
-        "test",
-        "--clean",
-        "--watch"
-      ],
+      "args": ["--debug", "test", "--clean", "--watch"],
       "console": "integratedTerminal",
       "sourceMaps": true
     },
