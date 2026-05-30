@@ -10,7 +10,7 @@
 [npm-license-url]: https://badgen.net/npm/license/@hz-9/eslint-config-airbnb-ts
 [npm-downloads-url]: https://badgen.net/npm/dt/@hz-9/eslint-config-airbnb-ts
 [node-version-url]: https://badgen.net/npm/node/@hz-9/eslint-config-airbnb-ts
-[last-commit-url]: https://badgen.net/github/last-commit/hz-9/lint
+[last-commit-url]: https://badgen.net/github/last-commit/hz-9/lint-nx
 
 ## 安装
 
@@ -27,11 +27,8 @@ npm install @hz-9/eslint-config-airbnb-ts --save-dev
 ```javascript
 module.exports = {
   extends: [
-    '@hz-9/eslint-config-airbnb-ts/node'
+    '@hz-9/eslint-config-airbnb-ts'
   ],
-  parserOptions: {
-    tsconfigRootDir: __dirname,
-  },
 }
 ```
 

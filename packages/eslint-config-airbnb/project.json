@@ -10,6 +10,12 @@
         "command": "echo 'No build needed - pure config package'",
         "cwd": "{projectRoot}"
       }
+    },
+    "test": {
+      "executor": "@nx/vite:test",
+      "options": {
+        "cwd": "{projectRoot}"
+      }
     }
   },
   "tags": ["scope:package", "type:config"]

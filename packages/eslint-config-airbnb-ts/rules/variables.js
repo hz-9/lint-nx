@@ -1,10 +1,7 @@
 const { rules: customVariablesRules } = require('@hz-9/eslint-config-airbnb/rules/variables')
-const { rules: baseVariablesRules } = require('../airbnb-ts-rules/variables')
 
 module.exports = {
   rules: {
-    ...baseVariablesRules,
-
     ...customVariablesRules,
 
     // Replace Airbnb 'init-declarations' rule with '@typescript-eslint' version

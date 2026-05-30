@@ -1,4 +1,4 @@
-const { rules: basePrettierRules } = require('@hz-9/eslint-config-airbnb/airbnb-base-rules/best-practices')
+const { rules: basePrettierRules } = require('@hz-9/eslint-config-airbnb/prettier-rules/index')
 
 module.exports = {
   rules: {

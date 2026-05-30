@@ -5,14 +5,14 @@ module.exports = {
   parser: '@typescript-eslint/parser',
 
   extends: [
-    '../airbnb-base-rules/best-practices',
-    '../airbnb-base-rules/errors',
-    '../airbnb-base-rules/es6',
-    '../airbnb-base-rules/imports',
-    '../airbnb-base-rules/node',
-    '../airbnb-base-rules/strict',
-    '../airbnb-base-rules/style',
-    '../airbnb-base-rules/variables',
+    '../airbnb-ts-rules/best-practices',
+    '../airbnb-ts-rules/errors',
+    '../airbnb-ts-rules/es6',
+    '../airbnb-ts-rules/imports',
+    '../airbnb-ts-rules/node',
+    '../airbnb-ts-rules/strict',
+    '../airbnb-ts-rules/style',
+    '../airbnb-ts-rules/variables',
 
     '../prettier-rules/index',
 

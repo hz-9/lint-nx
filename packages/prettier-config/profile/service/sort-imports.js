@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 const common = require('./common')
 
 let prettierPluginSortImportsIndexPath = null

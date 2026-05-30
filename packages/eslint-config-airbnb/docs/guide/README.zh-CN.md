@@ -10,7 +10,7 @@
 [npm-license-url]: https://badgen.net/npm/license/@hz-9/eslint-config-airbnb
 [npm-downloads-url]: https://badgen.net/npm/dt/@hz-9/eslint-config-airbnb
 [node-version-url]: https://badgen.net/npm/node/@hz-9/eslint-config-airbnb
-[last-commit-url]: https://badgen.net/github/last-commit/hz-9/lint
+[last-commit-url]: https://badgen.net/github/last-commit/hz-9/lint-nx
 
 ## 安装
 

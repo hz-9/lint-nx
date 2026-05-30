@@ -10,7 +10,7 @@ A [eslint] config for 'hz-9' (TypeScript).
 [npm-license-url]: https://badgen.net/npm/license/@hz-9/eslint-config-airbnb-ts
 [npm-downloads-url]: https://badgen.net/npm/dt/@hz-9/eslint-config-airbnb-ts
 [node-version-url]: https://badgen.net/npm/node/@hz-9/eslint-config-airbnb-ts
-[last-commit-url]: https://badgen.net/github/last-commit/hz-9/lint
+[last-commit-url]: https://badgen.net/github/last-commit/hz-9/lint-nx
 
 ## Installation
 
@@ -27,11 +27,8 @@ To use this configuration, add the following code to your `.eslintrc.js` file:
 ```javascript
 module.exports = {
   extends: [
-    '@hz-9/eslint-config-airbnb-ts/node'
+    '@hz-9/eslint-config-airbnb-ts'
   ],
-  parserOptions: {
-    tsconfigRootDir: __dirname,
-  },
 }
 ```
 

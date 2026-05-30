@@ -10,9 +10,9 @@
 [npm-license-url]: https://badgen.net/npm/license/@hz-9/prettier-config
 [npm-downloads-url]: https://badgen.net/npm/dt/@hz-9/prettier-config
 [node-version-url]: https://badgen.net/npm/node/@hz-9/prettier-config
-[last-commit-url]: https://badgen.net/github/last-commit/hz-9/lint
+[last-commit-url]: https://badgen.net/github/last-commit/hz-9/lint-nx
 
-[Document](https://hz-9.github.io/lint/guide/prettier-config/) | [文档](https://hz-9.github.io/lint/zh-CN/guide/prettier-config/)
+[Document](https://hz-9.github.io/lint-nx/guide/prettier-config/) | [文档](https://hz-9.github.io/lint-nx/zh-CN/guide/prettier-config/)
 
 ## 安装
 
