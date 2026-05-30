@@ -29,11 +29,8 @@ To use this configuration, add the following code to your `.eslintrc.js` file:
 ```javascript
 module.exports = {
   extends: [
-    '@hz-9/eslint-config-airbnb-ts/node'
+    '@hz-9/eslint-config-airbnb-ts'
   ],
-  parserOptions: {
-    tsconfigRootDir: __dirname,
-  },
 }
 ```
 
@@ -52,7 +49,7 @@ You can set `parseOptions.project` params.
 ```javascript
 module.exports = {
   extends: [
-    '@hz-9/eslint-config-airbnb-ts/node'
+    '@hz-9/eslint-config-airbnb-ts'
   ],
   parserOptions: {
     project: 'tsconfig.json',

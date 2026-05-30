@@ -1,10 +1,7 @@
 const { rules: customBestPracticesRules } = require('@hz-9/eslint-config-airbnb/rules/best-practices')
-const { rules: baseBestPracticesRules } = require('../airbnb-ts-rules/best-practices')
 
 module.exports = {
   rules: {
-    ...baseBestPracticesRules,
-
     ...customBestPracticesRules,
 
     // Replace Airbnb 'class-methods-use-this' rule with '@typescript-eslint' version

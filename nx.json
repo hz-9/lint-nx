@@ -2,7 +2,7 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "defaultBase": "master",
   "nxCloudAccessToken": "",
-  "plugins": [],
+  "plugins": ["@nx/vite"],
   "targetDefaults": {
     "build": {
       "dependsOn": ["^build"],

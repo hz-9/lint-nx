@@ -1,10 +1,7 @@
 const { rules: customStyleRules } = require('@hz-9/eslint-config-airbnb/rules/style')
-const { rules: baseStyleRules } = require('../airbnb-ts-rules/style')
 
 module.exports = {
   rules: {
-    ...baseStyleRules,
-
     ...customStyleRules,
 
     // disallow empty interfaces (allow single extends)
