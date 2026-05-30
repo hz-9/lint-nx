@@ -7,31 +7,29 @@
     "airbnb",
     "rushjs"
   ],
-  "homepage": "https://hz-9.github.io/lint/guide/eslint-config-airbnb-ts",
+  "homepage": "https://hz-9.github.io/lint-nx/guide/eslint-config-airbnb-ts",
   "bugs": {
-    "url": "https://github.com/hz-9/lint/issues"
+    "url": "https://github.com/hz-9/lint-nx/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hz-9/lint.git",
-    "directory": "eslint-config/eslint-config-airbnb-ts"
+    "url": "https://github.com/hz-9/lint-nx.git",
+    "directory": "packages/eslint-config-airbnb-ts"
   },
   "license": "MIT",
   "author": "Chen Zhen <heavenzhen999@163.com>",
   "exports": {
     ".": "./profile/index.js",
-    "./browser": "./profile/browser.js",
-    "./browser-rushstack": "./profile/browser-rushstack.js",
+    "./airbnb-ts": "./profile/airbnb-ts.js",
+    "./airbnb-prettier": "./profile/airbnb-prettier.js",
     "./index": "./profile/index.js",
-    "./index.js": "./profile/index.js",
-    "./modern-module-resolution": "./profile/modern-module-resolution.js",
-    "./node": "./profile/node.js",
-    "./node-rushstack": "./profile/node-rushstack.js",
     "./package.json": "./package.json",
     "./*": "./*.js"
   },
   "main": "./profile/index.js",
   "files": [
+    "airbnb-ts-rules",
+    "prettier-rules",
     "profile",
     "rules",
     "index.js",
@@ -40,16 +38,12 @@
     "README.md"
   ],
   "scripts": {
-    "build": " ",
-    "lint": "eslint --fix ./profile/**/*.js"
+    "build": " "
   },
   "dependencies": {
     "@hz-9/eslint-config-airbnb": "workspace:*",
-    "@rushstack/eslint-config": "^3.3.2",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
-    "eslint-config-airbnb-typescript": "^17.1.0",
-    "eslint-plugin-import": "^2.26.0"
+    "@typescript-eslint/parser": "^6.0.0"
   },
   "devDependencies": {
     "eslint": "^8.2.0",

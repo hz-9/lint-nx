@@ -8,17 +8,6 @@ module.exports = {
     '../airbnb-base-rules/strict',
     '../airbnb-base-rules/style',
     '../airbnb-base-rules/variables',
-
-    '../prettier-rules/index',
-
-    '../rules/best-practices',
-    '../rules/errors',
-    '../rules/es6',
-    '../rules/imports',
-    '../rules/node',
-    '../rules/strict',
-    '../rules/style',
-    '../rules/variables',
   ].map(require.resolve),
 
   parserOptions: {

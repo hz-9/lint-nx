@@ -2,7 +2,7 @@
 
 This is a collection of JavaScript 'Lint' extensions and configurations.
 
-[Document](https://hz-9.github.io/lint)
+[Document](https://hz-9.github.io/lint-nx)
 
 ## Quick Start
 

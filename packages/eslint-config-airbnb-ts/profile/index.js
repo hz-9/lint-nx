@@ -1,27 +1,35 @@
-/**
- * @Author       : Chen Zhen
- * @Date         : 2024-05-09 17:00:00
- * @LastEditors  : Chen Zhen
- * @LastEditTime : 2024-05-09 22:22:43
- * @Description  : 整合配置规则。
- */
+const { rules: tsOffRules } = require('../airbnb-ts-rules/ts-off')
 
 module.exports = {
-  extends: ['@hz-9/eslint-config-airbnb'].map(require.resolve),
+  plugins: ['@typescript-eslint'],
+  parser: '@typescript-eslint/parser',
+
+  extends: [
+    '../airbnb-base-rules/best-practices',
+    '../airbnb-base-rules/errors',
+    '../airbnb-base-rules/es6',
+    '../airbnb-base-rules/imports',
+    '../airbnb-base-rules/node',
+    '../airbnb-base-rules/strict',
+    '../airbnb-base-rules/style',
+    '../airbnb-base-rules/variables',
+
+    '../prettier-rules/index',
+
+    '../rules/best-practices',
+    '../rules/errors',
+    '../rules/es6',
+    '../rules/imports',
+    '../rules/node',
+    '../rules/strict',
+    '../rules/style',
+    '../rules/variables',
+  ].map(require.resolve),
 
   overrides: [
     {
-      files: ['*.ts', '*.tsx', '*.cts', '*.mts'],
-
-      extends: ['eslint-config-airbnb-typescript/lib/shared', '../rules/all'].map(require.resolve),
-
-      rules: {
-        // ...
-      },
+      files: ['*.ts', '*.tsx'],
+      rules: tsOffRules,
     },
   ],
-
-  rules: {
-    // ...
-  },
 }

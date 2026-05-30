@@ -5,21 +5,19 @@
   "keywords": [
     "prettier"
   ],
-  "homepage": "https://hz-9.github.io/lint/guide/prettier-config",
+  "homepage": "https://hz-9.github.io/lint-nx/guide/prettier-config",
   "bugs": {
-    "url": "https://github.com/hz-9/lint/issues"
+    "url": "https://github.com/hz-9/lint-nx/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hz-9/lint.git",
-    "directory": "prettier-config/prettier-config"
+    "url": "https://github.com/hz-9/lint-nx.git",
+    "directory": "packages/prettier-config"
   },
   "license": "MIT",
   "author": "Chen Zhen <heavenzhen999@163.com>",
   "exports": {
-    ".": "./profile/index.js",
-    "./service-common": "./profile/service/common.js",
-    "./service-sort-imports": "./profile/service/sort-imports.js"
+    ".": "./profile/index.js"
   },
   "main": "./profile/index.js",
   "files": [
@@ -29,22 +27,13 @@
     "README.md"
   ],
   "scripts": {
-    "build": " ",
-    "lint": "eslint --fix ./profile/**/*.js"
+    "build": " "
   },
-  "dependencies": {},
-  "devDependencies": {
-    "@hz-9/eslint-config-airbnb": "workspace:*",
-    "eslint": "^8.2.0"
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0"
   },
   "peerDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "prettier": "^3.3.3"
-  },
-  "peerDependenciesMeta": {
-    "@trivago/prettier-plugin-sort-imports": {
-      "optional": true
-    }
   },
   "engines": {
     "node": ">=18.15.0 <19.0.0 || >=20.9.0 <21.0.0"
