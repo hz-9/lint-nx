@@ -1,5 +1,11 @@
 # Change Log - @hz-9/prettier-config
 
+## 0.3.0
+
+### Minor Changes
+
+- eac9d20: refactor: comprehensive refactor to reduce dependencies
+
 ## 0.2.0
 
 ### Minor Changes

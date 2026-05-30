@@ -1,5 +1,11 @@
 # Change Log - @hz-9/eslint-config-airbnb
 
+## 0.6.0
+
+### Minor Changes
+
+- eac9d20: refactor: comprehensive refactor to reduce dependencies
+
 ## 0.5.0
 
 ### Minor Changes
