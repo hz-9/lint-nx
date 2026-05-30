@@ -1,5 +1,16 @@
 # Change Log - @hz-9/eslint-config-airbnb-ts
 
+## 0.9.0
+
+### Minor Changes
+
+- feat: add ts/tsx extension support for 'import/no-extraneous-dependencies' rule
+
+### Patch Changes
+
+- Updated dependencies
+  - @hz-9/eslint-config-airbnb@0.7.0
+
 ## 0.8.1
 
 ### Patch Changes

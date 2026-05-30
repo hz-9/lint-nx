@@ -1,6 +1,6 @@
 {
   "name": "@hz-9/eslint-config-airbnb-ts",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "description": "A eslint config for 'hz-9' (TypeScript)",
   "keywords": [
     "eslint",

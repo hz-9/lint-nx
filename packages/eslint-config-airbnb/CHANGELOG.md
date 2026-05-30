@@ -1,5 +1,11 @@
 # Change Log - @hz-9/eslint-config-airbnb
 
+## 0.7.0
+
+### Minor Changes
+
+- feat: add 'import/no-extraneous-dependencies' rule with vite.config support
+
 ## 0.6.1
 
 ### Patch Changes
