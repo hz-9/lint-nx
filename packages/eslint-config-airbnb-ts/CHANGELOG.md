@@ -1,5 +1,13 @@
 # Change Log - @hz-9/eslint-config-airbnb-ts
 
+## 0.9.1
+
+### Patch Changes
+
+- fix: remove baseImportsRules spread from imports rules
+- Updated dependencies
+  - @hz-9/eslint-config-airbnb@0.7.1
+
 ## 0.9.0
 
 ### Minor Changes

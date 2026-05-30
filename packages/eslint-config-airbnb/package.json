@@ -1,6 +1,6 @@
 {
   "name": "@hz-9/eslint-config-airbnb",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "A eslint config for 'hz-9' (JavaScript)",
   "keywords": [
     "eslint",
