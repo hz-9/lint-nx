@@ -50,16 +50,6 @@ module.exports = {
     'comma-spacing': 'off',
     '@typescript-eslint/comma-spacing': baseStyleRules['comma-spacing'],
 
-    // Replace Airbnb 'func-call-spacing' rule with '@typescript-eslint' version
-    // https://typescript-eslint.io/rules/func-call-spacing/
-    'func-call-spacing': 'off',
-    '@typescript-eslint/func-call-spacing': baseStyleRules['func-call-spacing'],
-
-    // Replace Airbnb 'indent' rule with '@typescript-eslint' version
-    // https://typescript-eslint.io/rules/indent/
-    indent: 'off',
-    '@typescript-eslint/indent': baseStyleRules.indent,
-
     // Replace Airbnb 'keyword-spacing' rule with '@typescript-eslint' version
     // https://typescript-eslint.io/rules/keyword-spacing/
     'keyword-spacing': 'off',

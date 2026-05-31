@@ -4,10 +4,6 @@ module.exports = {
   rules: {
     ...basePrettierRules,
 
-    // enforce empty lines around comments
-    // https://typescript-eslint.io/rules/lines-around-comment
-    '@typescript-eslint/lines-around-comment': 'off',
-
     // enforce the consistent use of backticks, double, or single quotes
     // https://typescript-eslint.io/rules/quotes
     '@typescript-eslint/quotes': 'off',
@@ -28,14 +24,6 @@ module.exports = {
     // https://typescript-eslint.io/rules/comma-spacing
     '@typescript-eslint/comma-spacing': 'off',
 
-    // require or disallow spacing between function identifiers and their invocations
-    // https://typescript-eslint.io/rules/func-call-spacing
-    '@typescript-eslint/func-call-spacing': 'off',
-
-    // enforce consistent indentation
-    // https://typescript-eslint.io/rules/indent
-    '@typescript-eslint/indent': 'off',
-
     // enforce consistent spacing between keys and values in object literal properties
     // https://typescript-eslint.io/rules/key-spacing
     '@typescript-eslint/key-spacing': 'off',
@@ -47,14 +35,6 @@ module.exports = {
     // enforce delimiter style for type members
     // https://typescript-eslint.io/rules/member-delimiter-style
     '@typescript-eslint/member-delimiter-style': 'off',
-
-    // disallow unnecessary parentheses
-    // https://typescript-eslint.io/rules/no-extra-parens
-    '@typescript-eslint/no-extra-parens': 'off',
-
-    // disallow unnecessary semicolons
-    // https://typescript-eslint.io/rules/no-extra-semi
-    '@typescript-eslint/no-extra-semi': 'off',
 
     // enforce consistent spacing inside braces
     // https://typescript-eslint.io/rules/object-curly-spacing

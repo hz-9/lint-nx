@@ -39,11 +39,6 @@ module.exports = {
     'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': baseBestPracticesRules['no-redeclare'],
 
-    // Replace Airbnb 'no-throw-literal' rule with '@typescript-eslint' version
-    // https://typescript-eslint.io/rules/no-throw-literal/
-    'no-throw-literal': 'off',
-    '@typescript-eslint/no-throw-literal': baseBestPracticesRules['no-throw-literal'],
-
     // Replace Airbnb 'no-unused-expressions' rule with '@typescript-eslint' version
     // https://typescript-eslint.io/rules/no-unused-expressions/
     'no-unused-expressions': 'off',
