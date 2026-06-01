@@ -19,42 +19,66 @@
   "license": "MIT",
   "author": "Chen Zhen <heavenzhen999@163.com>",
   "exports": {
-    ".": "./profile/index.js",
-    "./airbnb-ts": "./profile/airbnb-ts.js",
-    "./airbnb-prettier": "./profile/airbnb-prettier.js",
-    "./index": "./profile/index.js",
+    ".": {
+      "import": "./lib/profile/index.mjs",
+      "require": "./lib/profile/index.js"
+    },
+    "./airbnb-ts": {
+      "import": "./lib/profile/airbnb-ts.mjs",
+      "require": "./lib/profile/airbnb-ts.js"
+    },
+    "./airbnb-prettier": {
+      "import": "./lib/profile/airbnb-prettier.mjs",
+      "require": "./lib/profile/airbnb-prettier.js"
+    },
+    "./index": {
+      "import": "./lib/profile/index.mjs",
+      "require": "./lib/profile/index.js"
+    },
     "./package.json": "./package.json",
-    "./*": "./*.js"
+    "./flat": {
+      "import": "./lib/profile/flat.mjs",
+      "require": "./lib/profile/flat.js"
+    },
+    "./flat/airbnb-ts": {
+      "import": "./lib/profile/flat-airbnb-ts.mjs",
+      "require": "./lib/profile/flat-airbnb-ts.js"
+    },
+    "./flat/airbnb-prettier": {
+      "import": "./lib/profile/flat-airbnb-prettier.mjs",
+      "require": "./lib/profile/flat-airbnb-prettier.js"
+    },
+    "./*": {
+      "import": "./lib/*.mjs",
+      "require": "./lib/*.js"
+    }
   },
-  "main": "./profile/index.js",
+  "main": "./lib/profile/index.js",
   "files": [
-    "airbnb-ts-rules",
-    "prettier-rules",
-    "profile",
-    "rules",
-    "index.js",
+    "lib",
     "LICENSE",
     "CHANGELOG.md",
     "README.md"
   ],
   "scripts": {
-    "build": " "
+    "build": "node scripts/build.mjs"
   },
   "dependencies": {
     "@hz-9/eslint-config-airbnb": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0"
+    "@typescript-eslint/eslint-plugin": "^8.60.0",
+    "@typescript-eslint/parser": "^8.60.0"
   },
   "devDependencies": {
-    "eslint": "^8.2.0",
+    "esbuild": "^0.24.0",
+    "eslint": "^8.57.0",
     "typescript": ">=5.0.0 <5.4.0"
   },
   "peerDependencies": {
-    "eslint": "^8.2.0",
+    "eslint": "^8.57.0",
     "typescript": ">=5.0.0 <5.4.0"
   },
   "engines": {
-    "node": ">=18.15.0 <19.0.0 || >=20.9.0 <21.0.0"
+    "node": ">=18.18.0 <19.0.0 || >=20.9.0 <21.0.0"
   },
   "publishConfig": {
     "access": "public"
