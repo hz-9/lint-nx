@@ -7,7 +7,7 @@
     "build": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "echo 'No build needed - pure config package'",
+        "command": "node scripts/build.mjs",
         "cwd": "{projectRoot}"
       }
     },
