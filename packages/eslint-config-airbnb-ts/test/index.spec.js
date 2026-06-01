@@ -7,8 +7,9 @@ describe('@hz-9/eslint-config-airbnb-ts', () => {
     expect(config).toBeDefined()
     expect(Array.isArray(config.extends)).toBe(true)
     expect(config.extends.length).toBeGreaterThan(0)
-    expect(config.plugins).toContain('@typescript-eslint')
-    expect(config.parser).toBe('@typescript-eslint/parser')
+    expect(config.plugins).toContain('import')
+    expect(config.overrides[0].plugins).toContain('@typescript-eslint')
+    expect(config.overrides[0].parser).toBe('@typescript-eslint/parser')
   })
 
   it('should load sub-profiles', () => {

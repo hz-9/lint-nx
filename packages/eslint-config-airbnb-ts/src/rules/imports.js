@@ -14,7 +14,8 @@ module.exports = {
         devDependencies: customImportsRules['import/no-extraneous-dependencies'][1].devDependencies.reduce(
           (result, devDep) => {
             const toAppend = [devDep]
-            const devDepWithTs = devDep.replace(/\bjs(x?)\b/g, 'ts$1')
+            const devDepWithTs = devDep.replace(/([cm]?)(js)(x?)\b/g, '$1ts$3')
+
             if (devDepWithTs !== devDep) {
               toAppend.push(devDepWithTs)
             }

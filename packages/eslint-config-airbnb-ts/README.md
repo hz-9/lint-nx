@@ -12,8 +12,6 @@ A [eslint] config for 'hz-9' (TypeScript).
 [node-version-url]: https://badgen.net/npm/node/@hz-9/eslint-config-airbnb-ts
 [last-commit-url]: https://badgen.net/github/last-commit/hz-9/lint-nx
 
-[Document](https://hz-9.github.io/lint-nx/guide/eslint-config-airbnb-ts/) | [文档](https://hz-9.github.io/lint-nx/zh-CN/guide/eslint-config-airbnb-ts/)
-
 ## Installation
 
 To install the `@hz-9/eslint-config-airbnb-ts` package, run the following command:
@@ -24,7 +22,11 @@ npm install @hz-9/eslint-config-airbnb-ts --save-dev
 
 ## Usage
 
-To use this configuration, add the following code to your `.eslintrc.js` file:
+This package provides both **Legacy eslintrc** and **Flat config** formats.
+
+### Legacy (eslintrc)
+
+Add the following code to your `.eslintrc.js` file:
 
 ```javascript
 module.exports = {
@@ -34,17 +36,7 @@ module.exports = {
 }
 ```
 
-After that, you can run the ESLint fix command to automatically fix linting issues:
-
-```bash
-eslint --fix .
-```
-
-## Q & A
-
-## You have used a rule which requires parserServices to be generated. You must therefore provide a value for the "parserOptions.project" property for @typescript-eslint/parser
-
-You can set `parseOptions.project` params.
+If you need to generate `parserServices`, set `parseOptions.project`:
 
 ```javascript
 module.exports = {
@@ -56,4 +48,38 @@ module.exports = {
     tsconfigRootDir: __dirname,
   },
 }
+```
+
+Available sub-path exports:
+
+| Export | Description |
+|--------|-------------|
+| `@hz-9/eslint-config-airbnb-ts` (or `./index`) | airbnb-base + prettier + TS + hz-9 rules |
+| `@hz-9/eslint-config-airbnb-ts/airbnb-ts` | airbnb-base + TS rules |
+| `@hz-9/eslint-config-airbnb-ts/airbnb-prettier` | airbnb-base + prettier + TS rules |
+
+### Flat Config (ESLint >= 9.x)
+
+Add the following code to your `eslint.config.js` file:
+
+```javascript
+const airbnbTsConfig = require('@hz-9/eslint-config-airbnb-ts/flat')
+
+module.exports = [
+  ...airbnbTsConfig,
+]
+```
+
+Available sub-path exports:
+
+| Export | Description |
+|--------|-------------|
+| `@hz-9/eslint-config-airbnb-ts/flat` | airbnb-base + prettier + TS + hz-9 rules |
+| `@hz-9/eslint-config-airbnb-ts/flat/airbnb-ts` | airbnb-base + TS rules |
+| `@hz-9/eslint-config-airbnb-ts/flat/airbnb-prettier` | airbnb-base + prettier + TS rules |
+
+After that, you can run the ESLint fix command to automatically fix linting issues:
+
+```bash
+eslint --fix .
 ```
