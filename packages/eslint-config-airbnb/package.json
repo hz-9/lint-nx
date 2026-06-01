@@ -18,26 +18,49 @@
   "license": "MIT",
   "author": "Chen Zhen <heavenzhen999@163.com>",
   "exports": {
-    ".": "./profile/index.js",
-    "./airbnb-base": "./profile/airbnb-base.js",
-    "./airbnb-prettier": "./profile/airbnb-prettier.js",
-    "./index": "./profile/index.js",
+    ".": {
+      "import": "./lib/profile/index.mjs",
+      "require": "./lib/profile/index.js"
+    },
+    "./airbnb-base": {
+      "import": "./lib/profile/airbnb-base.mjs",
+      "require": "./lib/profile/airbnb-base.js"
+    },
+    "./airbnb-prettier": {
+      "import": "./lib/profile/airbnb-prettier.mjs",
+      "require": "./lib/profile/airbnb-prettier.js"
+    },
+    "./index": {
+      "import": "./lib/profile/index.mjs",
+      "require": "./lib/profile/index.js"
+    },
     "./package.json": "./package.json",
-    "./*": "./*.js"
+    "./flat": {
+      "import": "./lib/profile/flat.mjs",
+      "require": "./lib/profile/flat.js"
+    },
+    "./flat/airbnb-base": {
+      "import": "./lib/profile/flat-airbnb-base.mjs",
+      "require": "./lib/profile/flat-airbnb-base.js"
+    },
+    "./flat/airbnb-prettier": {
+      "import": "./lib/profile/flat-airbnb-prettier.mjs",
+      "require": "./lib/profile/flat-airbnb-prettier.js"
+    },
+    "./*": {
+      "import": "./lib/*.mjs",
+      "require": "./lib/*.js"
+    }
   },
-  "main": "./profile/index.js",
+  "main": "./lib/profile/index.js",
   "files": [
-    "airbnb-base-rules",
-    "prettier-rules",
-    "profile",
-    "rules",
-    "index.js",
+    "lib",
     "LICENSE",
     "CHANGELOG.md",
     "README.md"
   ],
   "scripts": {
-    "build": " "
+    "build": "node scripts/build.mjs"
   },
   "dependencies": {
     "confusing-browser-globals": "^1.0.10",
@@ -45,6 +68,7 @@
     "semver": "^6.3.0"
   },
   "devDependencies": {
+    "esbuild": "^0.24.0",
     "eslint": "^8.57.0"
   },
   "peerDependencies": {
