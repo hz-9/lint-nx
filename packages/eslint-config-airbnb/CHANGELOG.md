@@ -1,5 +1,15 @@
 # Change Log - @hz-9/eslint-config-airbnb
 
+## 0.8.0
+
+### Minor Changes
+
+- refactor: migrate config source to src/ with build system
+
+### Patch Changes
+
+- chore: update eslint peer dependency constraint to ^8.57.0
+
 ## 0.7.1
 
 ### Patch Changes
