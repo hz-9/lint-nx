@@ -1,5 +1,27 @@
 # Change Log - @hz-9/eslint-config-airbnb-ts
 
+## 0.10.0
+
+### Minor Changes
+
+- refactor: migrate config source to src/ with build system
+- refactor: remove deprecated @typescript-eslint rules and upgrade to v8
+
+  Remove rules that have been deprecated or removed in @typescript-eslint v8:
+  - no-throw-literal
+  - no-extra-parens
+  - no-extra-semi
+  - func-call-spacing
+  - indent
+  - lines-around-comment
+
+  Upgrade @typescript-eslint/eslint-plugin and @typescript-eslint/parser from ^6.0.0 to ^8.60.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @hz-9/eslint-config-airbnb@0.9.0
+
 ## 0.9.1
 
 ### Patch Changes
