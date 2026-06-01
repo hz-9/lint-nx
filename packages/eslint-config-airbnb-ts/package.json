@@ -37,16 +37,16 @@
     },
     "./package.json": "./package.json",
     "./flat": {
-      "import": "./lib/profile/flat.mjs",
-      "require": "./lib/profile/flat.js"
+      "import": "./lib/profile/flat/index.mjs",
+      "require": "./lib/profile/flat/index.js"
     },
     "./flat/airbnb-ts": {
-      "import": "./lib/profile/flat-airbnb-ts.mjs",
-      "require": "./lib/profile/flat-airbnb-ts.js"
+      "import": "./lib/profile/flat/airbnb-ts.mjs",
+      "require": "./lib/profile/flat/airbnb-ts.js"
     },
     "./flat/airbnb-prettier": {
-      "import": "./lib/profile/flat-airbnb-prettier.mjs",
-      "require": "./lib/profile/flat-airbnb-prettier.js"
+      "import": "./lib/profile/flat/airbnb-prettier.mjs",
+      "require": "./lib/profile/flat/airbnb-prettier.js"
     },
     "./*": {
       "import": "./lib/*.mjs",

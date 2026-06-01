@@ -22,7 +22,11 @@ npm install @hz-9/eslint-config-airbnb --save-dev
 
 ## 使用
 
-要使用此配置，请将以下代码添加到您的 `.eslintrc.js` 文件中：
+本包同时提供 **Legacy eslintrc** 和 **Flat Config** 两种格式。
+
+### Legacy（eslintrc）
+
+将以下代码添加到您的 `.eslintrc.js` 文件中：
 
 ```javascript
 module.exports = {
@@ -31,6 +35,34 @@ module.exports = {
   ],
 }
 ```
+
+可用的子路径导出：
+
+| 导出路径 | 说明 |
+|----------|------|
+| `@hz-9/eslint-config-airbnb`（或 `./index`） | airbnb-base + hz-9 规则 |
+| `@hz-9/eslint-config-airbnb/airbnb-base` | 仅 airbnb-base 规则 |
+| `@hz-9/eslint-config-airbnb/airbnb-prettier` | airbnb-base + prettier 规则 |
+
+### Flat Config（ESLint >= 9.x）
+
+将以下代码添加到您的 `eslint.config.js` 文件中：
+
+```javascript
+const airbnbConfig = require('@hz-9/eslint-config-airbnb/flat')
+
+module.exports = [
+  ...airbnbConfig,
+]
+```
+
+可用的子路径导出：
+
+| 导出路径 | 说明 |
+|----------|------|
+| `@hz-9/eslint-config-airbnb/flat` | airbnb-base + prettier + hz-9 规则 |
+| `@hz-9/eslint-config-airbnb/flat/airbnb-base` | 仅 airbnb-base 规则 |
+| `@hz-9/eslint-config-airbnb/flat/airbnb-prettier` | airbnb-base + prettier 规则 |
 
 之后，您可以运行 ESLint 修复命令来自动修复 linting 问题：
 
