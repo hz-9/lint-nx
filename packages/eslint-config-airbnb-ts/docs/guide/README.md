@@ -12,8 +12,6 @@ A [eslint] config for 'hz-9' (TypeScript).
 [node-version-url]: https://badgen.net/npm/node/@hz-9/eslint-config-airbnb-ts
 [last-commit-url]: https://badgen.net/github/last-commit/hz-9/lint-nx
 
-[Document](https://hz-9.github.io/lint-nx/guide/eslint-config-airbnb-ts/) | [文档](https://hz-9.github.io/lint-nx/zh-CN/guide/eslint-config-airbnb-ts/)
-
 ## Installation
 
 To install the `@hz-9/eslint-config-airbnb-ts` package, run the following command:
