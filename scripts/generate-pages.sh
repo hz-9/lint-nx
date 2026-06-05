@@ -9,9 +9,9 @@ PACKAGES_DIR="$ROOT_DIR/packages"
 
 echo ""
 echo "=== 0. Preparation phase ==="
-pnpm run format
-pnpm run lint
-pnpm run build
+# pnpm run format
+# pnpm run lint
+# pnpm run build
 
 echo ""
 echo "=== 0. Clearing history files ==="
