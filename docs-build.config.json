@@ -1,0 +1,173 @@
+{
+  "baseSourceDir": "docs",
+  "site": {
+    "base": "/lint-nx/",
+    "lang": "en-US",
+    "title": "HZ 9 Lint",
+    "description": "A collection of JavaScript/TypeScript lint configurations."
+  },
+  "locales": {
+    "languages": ["en-US", "zh-CN"]
+  },
+  "output": "docs/.vuepress",
+  "navigation": {
+    "navbar": [
+      {
+        "text": {
+          "en-US": "Overview",
+          "zh-CN": "概述"
+        },
+        "link": "overview/README.md",
+        "icon": "home"
+      },
+      {
+        "text": {
+          "en-US": "Guide",
+          "zh-CN": "指南"
+        },
+        "link": "guide/eslint-config-airbnb/README.md",
+        "icon": "book",
+        "children": [
+          {
+            "text": {
+              "en-US": "@hz-9/eslint-config-airbnb",
+              "zh-CN": "@hz-9/eslint-config-airbnb"
+            },
+            "link": "guide/eslint-config-airbnb/README.md",
+            "icon": "cubes"
+          },
+          {
+            "text": {
+              "en-US": "@hz-9/eslint-config-airbnb-ts",
+              "zh-CN": "@hz-9/eslint-config-airbnb-ts"
+            },
+            "link": "guide/eslint-config-airbnb-ts/README.md",
+            "icon": "cubes"
+          },
+          {
+            "text": {
+              "en-US": "@hz-9/prettier-config",
+              "zh-CN": "@hz-9/prettier-config"
+            },
+            "link": "guide/prettier-config/README.md",
+            "icon": "cubes"
+          }
+        ]
+      },
+      {
+        "text": {
+          "en-US": "Changelog",
+          "zh-CN": "更新日志"
+        },
+        "link": "changelog/eslint-config-airbnb/README.md",
+        "icon": "clock",
+        "children": [
+          {
+            "text": {
+              "en-US": "@hz-9/eslint-config-airbnb",
+              "zh-CN": "@hz-9/eslint-config-airbnb"
+            },
+            "link": "changelog/eslint-config-airbnb/README.md",
+            "icon": "cubes"
+          },
+          {
+            "text": {
+              "en-US": "@hz-9/eslint-config-airbnb-ts",
+              "zh-CN": "@hz-9/eslint-config-airbnb-ts"
+            },
+            "link": "changelog/eslint-config-airbnb-ts/README.md",
+            "icon": "cubes"
+          },
+          {
+            "text": {
+              "en-US": "@hz-9/prettier-config",
+              "zh-CN": "@hz-9/prettier-config"
+            },
+            "link": "changelog/prettier-config/README.md",
+            "icon": "cubes"
+          }
+        ]
+      }
+    ],
+    "sidebar": {
+      "/overview/": [
+        {
+          "text": {
+            "en-US": "Overview",
+            "zh-CN": "概述"
+          },
+          "link": "overview/README.md",
+          "icon": "home"
+        },
+        {
+          "text": {
+            "en-US": "To Developers",
+            "zh-CN": "致开发者"
+          },
+          "link": "overview/to-developer.md",
+          "icon": "user"
+        }
+      ],
+      "/guide/eslint-config-airbnb/": [
+        {
+          "text": {
+            "en-US": "Getting Started",
+            "zh-CN": "快速开始"
+          },
+          "link": "guide/eslint-config-airbnb/README.md",
+          "icon": "rocket"
+        }
+      ],
+      "/guide/eslint-config-airbnb-ts/": [
+        {
+          "text": {
+            "en-US": "Getting Started",
+            "zh-CN": "快速开始"
+          },
+          "link": "guide/eslint-config-airbnb-ts/README.md",
+          "icon": "rocket"
+        }
+      ],
+      "/guide/prettier-config/": [
+        {
+          "text": {
+            "en-US": "Getting Started",
+            "zh-CN": "快速开始"
+          },
+          "link": "guide/prettier-config/README.md",
+          "icon": "rocket"
+        }
+      ],
+      "/changelog/eslint-config-airbnb/": [
+        {
+          "text": {
+            "en-US": "ESLint Config Airbnb Changelog",
+            "zh-CN": "ESLint 配置更新日志"
+          },
+          "link": "changelog/eslint-config-airbnb/README.md",
+          "icon": "clock"
+        }
+      ],
+      "/changelog/eslint-config-airbnb-ts/": [
+        {
+          "text": {
+            "en-US": "ESLint Config Airbnb TS Changelog",
+            "zh-CN": "ESLint TS 配置更新日志"
+          },
+          "link": "changelog/eslint-config-airbnb-ts/README.md",
+          "icon": "clock"
+        }
+      ],
+      "/changelog/prettier-config/": [
+        {
+          "text": {
+            "en-US": "Prettier Config Changelog",
+            "zh-CN": "Prettier 配置更新日志"
+          },
+          "link": "changelog/prettier-config/README.md",
+          "icon": "clock"
+        }
+      ]
+    }
+  }
+}
