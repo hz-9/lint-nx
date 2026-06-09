@@ -1,0 +1,73 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: zh-CN
+branch: master
+exported_at: "2026-06-09T11:31:50Z"
+modules:
+    "":
+        dir_name: 前端代码规范与文档构建工作区
+        title: 前端代码规范与文档构建工作区
+        scope:
+            - README.md
+            - package.json
+            - .eslintignore
+            - .eslintrc.js
+            - .gitattributes
+            - .gitignore
+            - .lintstagedrc.json
+            - .markdownlint.json
+            - .nvmrc
+            - .prettierignore
+            - .prettierrc.js
+            - LICENSE
+            - README.zh-CN.md
+            - commitlint.config.js
+            - docs-build.config.json
+            - nx.json
+            - pnpm-lock.yaml
+            - pnpm-workspace.yaml
+            - typescript-eslint-eslint-plugin-8.60.0.tgz
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    docs:
+        dir_name: 项目文档与站点构建
+        title: 项目文档与站点构建
+        scope:
+            - docs/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: eslint_config_airbnb
+    eslint_config_airbnb:
+        dir_name: Airbnb ESLint 配置与规则集
+        title: Airbnb ESLint 配置与规则集
+        scope:
+            - packages/eslint-config-airbnb/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: prettier_config
+            - path: docs
+    eslint_config_airbnb_ts:
+        dir_name: Airbnb TypeScript ESLint 配置
+        title: Airbnb TypeScript ESLint 配置
+        scope:
+            - packages/eslint-config-airbnb-ts/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    prettier_config:
+        dir_name: Prettier 代码格式化配置模块
+        title: Prettier 代码格式化配置模块
+        scope:
+            - packages/prettier-config/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: eslint_config_airbnb

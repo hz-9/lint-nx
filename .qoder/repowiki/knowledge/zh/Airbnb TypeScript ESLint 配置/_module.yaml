@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: eslint_config_airbnb_ts
+title: Airbnb TypeScript ESLint 配置
+scope:
+    - packages/eslint-config-airbnb-ts/
+source_files: []
+depends_on: []
+related_to: []

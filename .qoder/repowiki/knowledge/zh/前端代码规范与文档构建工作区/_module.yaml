@@ -1,0 +1,26 @@
+schema_version: 1
+module_path: ""
+title: 前端代码规范与文档构建工作区
+scope:
+    - README.md
+    - package.json
+    - .eslintignore
+    - .eslintrc.js
+    - .gitattributes
+    - .gitignore
+    - .lintstagedrc.json
+    - .markdownlint.json
+    - .nvmrc
+    - .prettierignore
+    - .prettierrc.js
+    - LICENSE
+    - README.zh-CN.md
+    - commitlint.config.js
+    - docs-build.config.json
+    - nx.json
+    - pnpm-lock.yaml
+    - pnpm-workspace.yaml
+    - typescript-eslint-eslint-plugin-8.60.0.tgz
+source_files: []
+depends_on: []
+related_to: []

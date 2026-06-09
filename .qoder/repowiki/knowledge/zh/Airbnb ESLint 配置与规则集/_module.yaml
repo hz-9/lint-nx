@@ -1,0 +1,10 @@
+schema_version: 1
+module_path: eslint_config_airbnb
+title: Airbnb ESLint 配置与规则集
+scope:
+    - packages/eslint-config-airbnb/
+source_files: []
+depends_on: []
+related_to:
+    - path: prettier_config
+    - path: docs
